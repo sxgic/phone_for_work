@@ -13,6 +13,25 @@ Making a cellphone can work like a pc for coding, studying or working everywhere
 
 ### [Termux skills may be used](https://github.com/xingangshi/config_tools/blob/master/006_termux/termux_skills.md)
 
+### Termux for ssh connecting
+
+```
+pkg install open-ssh -y
+# start sshd
+sshd
+# close sshd
+pkill sshd
+# show sshd status
+ps aux | grep sshd
+```
+
+Copy remote-login-client's public key which named id_ras.pub file content into the file `~/.ssh/authorized_keys` of termux-device.
+
+```
+# remote-login-client login
+ssh user@1.2.3.4 -p
+```
+
 ### Commands for initialized
 ```
 pkg install root-repo x11-repo -y
