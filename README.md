@@ -74,6 +74,13 @@ git clone https://github.com/zsh-users/zsh-autosuggestions \
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git \ 
     ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
+git clone https://github.com/joelthelion/autojump.git
+cd autojump %% ./install.py
+```
+
+<img width="1159" alt="msg of installing autojump" src="https://user-images.githubusercontent.com/44218078/212656262-fba4a54b-3e6a-48ea-bbab-2e44206bd4dc.png">
+
+```
 # update my oh-my-zsh plugins
 # vim ~/.zshrc modify
 #plugins=(git
@@ -81,6 +88,10 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git \
 #         autojump
 #         zsh-syntax-highlighting
 #)
+#
+#[[ -s /data/data/com.termux/files/home/.autojump/etc/profile.d/autojump.sh ]] \
+#  && source /data/data/com.termux/files/home/.autojump/etc/profile.d/autojump.sh
+#autoload -U compinit && compinit -u
 ```
 
 ## NOTES
