@@ -37,7 +37,7 @@ ssh user@1.2.3.4 -p
 pkg install root-repo x11-repo -y
 pkg upgrade -y
 pkg update -y
-pkg install -y vim-gtk git openssh
+pkg install -y vim-gtk git openssh rust
 termux-setup-storage
 
 mkdir .ssh storage/shared/termux_dir
@@ -51,6 +51,36 @@ ssh-add ~/.ssh/id_rsa
 
 cd work
 git clone your_git_repo
+```
+
+### Self softwares to install
+
+#### [Vim install](https://github.com/xingangshi/vim_installer)
+
+#### [Emacs prelude install](https://github.com/xingangshi/emacs_evil)
+
+#### [Zsh install](https://www.zsh.org/)
+```
+pkg install zsh autjump -y
+
+echo $SHELL
+chsh -s zsh
+echo $SHELL
+
+git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+git clone https://github.com/zsh-users/zsh-autosuggestions \
+    ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git \ 
+    ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
+# update my oh-my-zsh plugins
+# vim ~/.zshrc modify
+#plugins=(git
+#         zsh-autosuggestions
+#         autojump
+#         zsh-syntax-highlighting
+#)
 ```
 
 ## NOTES
