@@ -4,10 +4,10 @@ Making a cellphone can work like a pc for coding, studying or working everywhere
 
 ## Softwares
 
-1. [Ternux](https://termux.dev/en/), [Ternux github repo](https://github.com/termux/termux-app) for android, [ish](https://ish.app/) for ios.
+1. [Ternux](https://termux.dev/en/), [Ternux github repo](https://github.com/termux/termux-app) for android, [ish](https://ish.app/) for macOS.
 2. [Code Editor - Compiler & IDE](https://play.google.com/store/apps/details?id=com.rhmsoft.code&hl=en_US&gl=US) for android, [IOS version](https://apps.apple.com/us/app/code-editor-compiler-ide/id1581290510)
-3. [Juicessh](https://juicessh.com/)
-4. [Remote Desktop](https://play.google.com/store/apps/details?id=com.microsoft.rdc.androidx&hl=en_US&gl=US) for android.
+3. [Juicessh](https://juicessh.com/) for android, [Secure ShellFish](https://secureshellfish.app/) for macOS.
+4. [Remote Desktop](https://play.google.com/store/apps/details?id=com.microsoft.rdc.androidx&hl=en_US&gl=US) for all platforms.
 
 ## For start
 
