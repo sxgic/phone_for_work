@@ -29,7 +29,7 @@ Copy remote-login-client's public key which named id_ras.pub file content into t
 
 ```
 # remote-login-client login
-ssh user@1.2.3.4 -p
+ssh u0_a252@192.168.101.3 -p8022 -i ~/.ssh/id_ras
 ```
 
 ### Commands for initialized
