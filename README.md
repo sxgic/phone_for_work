@@ -9,13 +9,18 @@ Making a cellphone can work like a pc for coding, studying or working everywhere
 3. [Juicessh](https://juicessh.com/) for android, [Secure ShellFish](https://secureshellfish.app/) for macOS.
 4. [Remote Desktop](https://play.google.com/store/apps/details?id=com.microsoft.rdc.androidx&hl=en_US&gl=US) for all platforms.
 
+## Andorid more Tools
+
+1. UserLAnd (Linux emulator.)
+2. Via (A mobile browser. Via emulates a PC browser while maintaining the mobile layout.)
+
 ## For start
 
 ### [Termux skills may be used](https://github.com/xingangshi/config_tools/blob/master/006_termux/termux_skills.md)
 
 ### Termux for ssh connecting
 
-```
+```bash
 pkg install open-ssh -y
 # start sshd
 sshd
@@ -27,13 +32,14 @@ ps aux | grep sshd
 
 Copy remote-login-client's public key which named id_ras.pub file content into the file `~/.ssh/authorized_keys` of termux-device.
 
-```
+```bash
 # remote-login-client login
 ssh u0_a252@192.168.101.3 -p8022 -i ~/.ssh/id_ras
 ```
 
 ### Commands for initialized
-```
+
+```bash
 pkg install root-repo x11-repo -y
 pkg upgrade -y
 pkg update -y
@@ -60,7 +66,8 @@ git clone your_git_repo
 #### [Emacs prelude install](https://github.com/xingangshi/emacs_evil)
 
 #### [Zsh install](https://www.zsh.org/)
-```
+
+```bash
 pkg install zsh autjump -y
 
 echo $SHELL
@@ -80,7 +87,7 @@ cd autojump %% ./install.py
 
 <img width="1159" alt="msg of installing autojump" src="https://user-images.githubusercontent.com/44218078/212656262-fba4a54b-3e6a-48ea-bbab-2e44206bd4dc.png">
 
-```
+```bash
 # update my oh-my-zsh plugins
 # vim ~/.zshrc modify
 #plugins=(git
@@ -95,4 +102,5 @@ cd autojump %% ./install.py
 ```
 
 ## NOTES
-1. The project has canceled.
+
+1. The project has be restarted.
