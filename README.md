@@ -5,7 +5,7 @@ Making a cellphone can work like a pc for coding, studying or working everywhere
 ## Softwares
 
 1. [UserLAnd](https://userland.tech) run a Linux distribution or application on an Android device.
-2. [Termux](https://termux.dev/en/), [Termux github repo](https://github.com/termux/termux-app) for android, [ish](https://ish.app/) for iOS/iPadOS.
+2. [Termux](https://termux.dev/en/), [Termux github repo](https://github.com/termux/termux-app) for android, [iSH Shell](https://ish.app/) for iOS/iPadOS.
 3. [Code Editor - Compiler &amp; IDE](https://play.google.com/store/apps/details?id=com.rhmsoft.code&hl=en_US&gl=US) for android, [IOS version](https://apps.apple.com/us/app/code-editor-compiler-ide/id1581290510)
 4. [Juicessh](https://juicessh.com/) for android, [Secure ShellFish](https://secureshellfish.app/) for macOS.
 5. [Remote Desktop](https://play.google.com/store/apps/details?id=com.microsoft.rdc.androidx&hl=en_US&gl=US) for all platforms.
@@ -108,7 +108,31 @@ cd autojump %% ./install.py
 
 ## For iOS/iPadOS
 
-[ish](https://ish.app) Linux shell for iOS/iPadOS.
+[iSH Shell](https://ish.app) Linux shell for iOS/iPadOS. You can get this app from App Store.
+
+### Skills in iSH
+
+#### When `git clone` going, iSh will bocked on port of "Resolving deltas"
+
+1. Description of the problem.
+
+<img width="1159" alt="iSH blocked by `git clone`" src="/pics/ishblock.jpeg">
+
+Because of the conflict between program concurrency and iOS memory management, Git's use of multithreading will get stuck in the Resolving deltas part.
+
+2. Solution
+
+The solution is simple, let Git on iSh run on a single thread to solve the problem.
+
+```bash
+git config pack.threads "1"
+```
+
+If you want to use single-threaded globally when using Git, you can add the global parameter.
+
+```bash
+git config --global pack.threads "1"
+```
 
 ## NOTES
 
