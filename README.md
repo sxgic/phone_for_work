@@ -4,17 +4,22 @@ Making a cellphone can work like a pc for coding, studying or working everywhere
 
 ## Softwares
 
-1. [Ternux](https://termux.dev/en/), [Ternux github repo](https://github.com/termux/termux-app) for android, [ish](https://ish.app/) for macOS.
-2. [Code Editor - Compiler & IDE](https://play.google.com/store/apps/details?id=com.rhmsoft.code&hl=en_US&gl=US) for android, [IOS version](https://apps.apple.com/us/app/code-editor-compiler-ide/id1581290510)
-3. [Juicessh](https://juicessh.com/) for android, [Secure ShellFish](https://secureshellfish.app/) for macOS.
-4. [Remote Desktop](https://play.google.com/store/apps/details?id=com.microsoft.rdc.androidx&hl=en_US&gl=US) for all platforms.
+1. [UserLAnd](https://userland.tech) run a Linux distribution or application on an Android device.
+2. [Termux](https://termux.dev/en/), [Termux github repo](https://github.com/termux/termux-app) for android, [ish](https://ish.app/) for iOS/iPadOS.
+3. [Code Editor - Compiler &amp; IDE](https://play.google.com/store/apps/details?id=com.rhmsoft.code&hl=en_US&gl=US) for android, [IOS version](https://apps.apple.com/us/app/code-editor-compiler-ide/id1581290510)
+4. [Juicessh](https://juicessh.com/) for android, [Secure ShellFish](https://secureshellfish.app/) for macOS.
+5. [Remote Desktop](https://play.google.com/store/apps/details?id=com.microsoft.rdc.androidx&hl=en_US&gl=US) for all platforms.
+6. [Via browser](https://viayoo.com/en/), lite and powerful functions browser desinged by geek thinking.
 
-## Andorid more Tools
+## Using [Julia](https://julialang.org) on Android mobile phone
 
-1. UserLAnd (Linux emulator.)
-2. Via (A mobile browser. Via emulates a PC browser while maintaining the mobile layout.)
+[Julia](https://julialang.org) on android mobile phone:
 
-## For start
+1. [UserLAnd](https://userland.tech) (The easiest way to run a Linux distribution or application on an Android device.)
+2. [Via browser](https://viayoo.com/en/) (Via browser is a lite browser with powerful functions. Designed on geek thinking.)
+3. [Pluto.jl](https://plutojl.org) (Simple, reactive programming environment for Julia) (**Julia v1.6 or above**)
+
+## For Android
 
 ### [Termux skills may be used](https://github.com/xingangshi/config_tools/blob/master/006_termux/termux_skills.md)
 
@@ -100,6 +105,10 @@ cd autojump %% ./install.py
 #  && source /data/data/com.termux/files/home/.autojump/etc/profile.d/autojump.sh
 #autoload -U compinit && compinit -u
 ```
+
+## For iOS/iPadOS
+
+[ish](https://ish.app) Linux shell for iOS/iPadOS.
 
 ## NOTES
 
