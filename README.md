@@ -21,6 +21,10 @@ Making a cellphone can work like a pc for coding, studying or working everywhere
 
 ## For Android
 
+### [F-Droid](https://f-droid.org/)
+
+F-Droid is an installable catalogue of FOSS (Free and Open Source Software) applications for the Android platform. 
+
 ### [Termux skills may be used](https://github.com/xingangshi/config_tools/blob/master/006_termux/termux_skills.md)
 
 ### Termux for ssh connecting
